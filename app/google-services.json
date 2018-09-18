@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "53038674105",
+    "firebase_url": "https://munitacna-384ef.firebaseio.com",
+    "project_id": "munitacna-384ef",
+    "storage_bucket": "munitacna-384ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53038674105:android:2f32308f746d02a1",
+        "android_client_info": {
+          "package_name": "com.example.jimenez.appmunitacna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53038674105-1vi2lratbnt3eqohmcs8mks49flnl3la.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jimenez.appmunitacna",
+            "certificate_hash": "5e6aca4383c02190d88337edccc99bbb5f04471e"
+          }
+        },
+        {
+          "client_id": "53038674105-hjekjgg74p2fq66peqfoavvku7h2a8nq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jimenez.appmunitacna",
+            "certificate_hash": "3e14e71db1ca67a15f37ea3bb2762f4804f3127f"
+          }
+        },
+        {
+          "client_id": "53038674105-anpcdt16n0pn9igbcm9mm6s8pelhkn73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNI5dcOVv1rg6RWlkIPmBZL-U50fShDNM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53038674105-anpcdt16n0pn9igbcm9mm6s8pelhkn73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

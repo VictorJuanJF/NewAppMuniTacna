@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--- Datos del Login -->
+        <ImageView
+            android:id="@+id/imgPhotoProfile"
+            android:layout_width="@dimen/main.image.size"
+            android:layout_height="@dimen/main.image.size"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main.hint.userName"
+            android:padding="@dimen/login.tv.padding"
+            />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main.hint.email"
+            android:padding="@dimen/login.tv.padding"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/tvProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/main.hint.provider"
+            android:padding="@dimen/login.tv.padding"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/main.padding.small"
+        tools:listitem="@layout/item_categoria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
